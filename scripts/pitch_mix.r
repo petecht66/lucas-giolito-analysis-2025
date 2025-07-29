@@ -27,9 +27,13 @@ long_pitch_mix <- performance_data %>%
                names_to = "PitchType",
                values_to = "UsagePct")
 
+# plot usage of Giolito's pitch mix on one graph
 ggplot(long_pitch_mix, aes(x = StartNum, y = UsagePct, color = PitchType)) +
   geom_point() +
   geom_line() +
+  geom_vline(xintercept = 7.5, linetype = "solid", color = "black") +
+  annotate("text", x = 7.5, y = 0, label = "Moment of Mechanics Changes",
+    vjust = 1, hjust = 0, size = 3) +
   ggtitle("Pitch Type Usage by Start") +
   labs(x = "Start Number", y = "Usage Percentage", color = "Pitch Type") +
   theme_minimal() +
