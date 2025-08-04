@@ -13,8 +13,8 @@ performance_data$Angle <- ifelse(performance_data$StartNum <= 7, "Old Arm Angle"
 ggplot(performance_data, aes(x = StartNum, y = Strike., color = Angle)) +
   geom_point() + 
   geom_line() + 
-  geom_hline(yintercept = 64.5, linetype = "dashed", color = "black") +
-  annotate("text", x = max(performance_data$StartNum), y = 64.5, 
+  geom_hline(yintercept = 61, linetype = "dashed", color = "black") +
+  annotate("text", x = max(performance_data$StartNum), y = 61, 
            label = "League Avg", vjust = -0.5, hjust = 1, size = 3) +
   ggtitle("Strike Percentage by Start") +
   labs(x = "Start Number", y = "Strike%") +
