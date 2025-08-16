@@ -1,4 +1,4 @@
 # lucas-giolito-analysis-2025
 Date Started: July 14, 2025
-Last Updated: August 6, 2025
-This project analyzes the midseason turnaround of Boston Red Sox right-handed pitcher Lucas Giolito. Raw data was downloaded/pulled from both baseballsavant.com and pitcherlist.com. Further calculations and data cleaning were performed in Microsoft Excel before the analysis in R. Data analysis includes changes relating to pitching mechanics, usage of his pitch mix, strike percentage, and outcomes of each at-bat. 
+Last Updated: August 16, 2025
+This project analyzes the midseason turnaround of Boston Red Sox right-handed pitcher Lucas Giolito. Raw data was downloaded/pulled from both baseballsavant.com and pitcherlist.com. Further calculations and data cleaning were performed in Microsoft Excel before the analysis in R. Data analysis includes changes relating to pitching mechanics, usage of his pitch mix, strike percentage, and outcomes of each at-bat. The full report in both .pdf and .docx file types can be found in the 'report' folder within this repository.
